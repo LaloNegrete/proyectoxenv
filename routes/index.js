@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 router.get('/acerca', function(req, res, next) {
 	//solicitud a una ruta del apirest
-  res.render('Acercade', { otraCosa: 'Acerca' });
+  res.render('saludo', { otraCosa: 'Acerca' });
 });
 
 module.exports = router;
