@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 router.get('/hola', function(req, res, next) {
 	//solicitud a una ruta del apirest
   res.render('Acerca', { otraCosa: 'acerca' });
-  res.render('API', { otraCosa: 'api' });
+  
 
 });
 
