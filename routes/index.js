@@ -5,11 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
-router.get('/hola', function(req, res, next) {
+router.get('/acerca', function(req, res, next) {
 	//solicitud a una ruta del apirest
-  res.render('Acerca', { otraCosa: 'acerca' });
-  
-
+  res.render('Acercade', { otraCosa: 'Acerca' });
 });
 
 module.exports = router;
