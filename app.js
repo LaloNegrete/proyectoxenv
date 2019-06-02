@@ -3,7 +3,8 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://LaloDb:1234@cluster0-39j04.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true });
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
