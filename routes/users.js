@@ -32,7 +32,11 @@ router.post('/', function(req, res, next) {
     id: req.body.id,
     name: req.body.name,
     lastname: req.body.lastname,
-    age: req.body.age
+    age: req.body.age,
+    born: req.body.born,
+    death: req.body.death,
+    movement: req.body.movement,
+    place_of_birth: req.body.place_of_birth
   });
   //res.send(usuario);
 
