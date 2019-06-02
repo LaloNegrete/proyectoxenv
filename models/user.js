@@ -5,7 +5,7 @@ var UserSchema =  Schema({
   id:Number,
   name:String,
   lastname:String,
-  age:Number
+  age:Number,
   born: Number,
   death: Number,
   movement: String,
